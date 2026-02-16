@@ -1,0 +1,161 @@
+.header{
+  background-image: url("https://i.imgur.com/gMtewpe.jpeg");
+  background-position: left 59% top 56%;
+  padding: 20px;
+  text-align: center;
+  border-color: #000000;
+  border-width: 3px;
+  border-style: solid;
+  height: 9rem;
+}
+
+.under-header {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  font-size: larger;
+
+}
+
+.Events {
+  color: black;
+  
+}
+
+.Events-text {
+  margin-top: 50px;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+.Events-Box-Text {
+  color: black;
+  text-align: center;
+  padding: 20px;
+  font-size: 20em;
+}
+
+.Events-Box {
+  border: solid black 3px;
+  height: 25em;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.For-sale {
+  color: black;
+  text-align: center;
+  padding: 20px;
+  
+}
+
+.carousel {
+  margin-bottom: 50px auto;
+  width: 100%;
+  height: 50em;
+  /* border: 5px solid red; */
+  display: flex;
+  overflow-x: auto;
+}
+.carousel::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for WebKit browsers */
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 1em;
+  animation: spin 40s linear infinite;
+  padding-right: 1em;
+  /* background-color: #000000; */
+
+}
+
+
+.card-1{
+  flex: 0 0 20em;
+  height: 20em;
+  width: 25em;
+  /* max-width: 50em;
+  max-height: 30em; */
+  background: cornflowerblue;
+  font-size: 3rem;
+  border-radius: .2em;
+  text-align: center;
+  align-content: center;
+}
+
+.card-2{
+  flex: 0 0 20em;
+  height: 20em;
+  width: 25em;
+  /* max-width: 50em;
+  max-height: 30em; */
+  background: cornflowerblue;
+  font-size: 3rem;
+  border-radius: .2em;
+  text-align: center;
+  align-content: center;
+}
+
+.card-3{
+  flex: 0 0 20em;
+  height: 20em;
+  width: 25em;
+  /* max-width: 50em;
+  max-height: 30em; */
+  background: cornflowerblue;
+  font-size: 3rem;
+  border-radius: .2em;
+  text-align: center;
+  align-content: center;
+}
+
+.card-4 {
+  flex: 0 0 20em;
+  height: 20em;
+  width: 25em;
+  /* max-width: 50em;
+  max-height: 30em; */
+  background: cornflowerblue;
+  font-size: 3rem;
+  border-radius: .2em;
+  text-align: center;
+  align-content: center;
+}
+
+.card-5 {
+  flex: 0 0 20em;
+  height: 20em;
+  width: 25em;
+  /* max-width: 50em;
+  max-height: 30em; */
+  background: cornflowerblue;
+  font-size: 3rem;
+  border-radius: .2em;
+  text-align: center;
+  align-content: center;
+}
+
+.card-6 {
+  flex: 0 0 20em;
+  height: 20em;
+  width: 25em;
+  /* max-width: 50em;
+  max-height: 30em; */
+  background: cornflowerblue;
+  font-size: 3rem;
+  border-radius: .2em;
+  text-align: center;
+  align-content: center;
+}
+
+@keyframes spin {
+  from {translate: 0;}
+  to {translate: -100%;}
+}
+
